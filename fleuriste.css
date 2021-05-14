@@ -2,7 +2,13 @@
     display: none;
 }
 
+p, span {
+    color: #282B28;
+}
 
+h1 {
+    color: #3E5641;
+}
 
 
 
@@ -16,4 +22,11 @@
     display: block;
 }
 
+}
+
+
+
+
+footer {
+    background-color: #83BCA9;
 }
