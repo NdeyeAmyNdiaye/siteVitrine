@@ -8,10 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
-    
-        <link href="fleuriste.css" rel="stylesheet">
-
+    <link href="fleuriste.css" rel="stylesheet">
 
 </head>
 
@@ -19,7 +16,32 @@
 
     <!-- NaBar -->
 
-  
+  <section class="container-fluid" id="formWrapper">
+    <h2 class="text-center fw-bold">Nous contacter</h2>
+    <form class="col-md-6 offset-md-3 col-10 offset-1 align-items-center">
+      <div class="mb-3">
+        <label for="lastName" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="lastName">
+      </div>
+      <div class="mb-3">
+        <label for="firstName" class="form-label">Prénom</label>
+        <input type="text" class="form-control" id="firstName">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nous ne partagerons pas votre email à de tierces personnes/sites.</div>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Téléphone</label>
+        <input type="tel" class="form-control" id="phone">
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary text-center">Nous contacter</button>
+      </div>
+      
+    </form>
+  </section>
 
 
 
