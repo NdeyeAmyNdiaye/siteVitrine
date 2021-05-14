@@ -2,18 +2,16 @@
     display: none;
 }
 
-
-
-
-
 @media only screen and (max-device-width:600px) {
-
-.pc {
-    display: none;
+    .pc {
+        display: none;
+    }
+    .tel {
+        display: block;
+    }
 }
 
-.tel {
-    display: block;
-}
-
+.card.mariage{
+    background-image: url('https://r.lvmh-static.com/uploads/2020/02/site-cover-11-2000x1100.jpg');
+    position: center;
 }
