@@ -1,0 +1,19 @@
+.tel {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-device-width:600px) {
+
+.pc {
+    display: none;
+}
+
+.tel {
+    display: block;
+}
+
+}
