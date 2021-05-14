@@ -3,7 +3,6 @@
     display: none;
 }
 
-<<<<<<< HEAD
 p, span, label, form .form_text {
     color: #282B28;
 }
@@ -50,7 +49,11 @@ button.btn-primary {
     box-sizing: border-box;
   }
 
-  .my_container {
+footer {
+    background-color: #83BCA9;
+}
+
+.my_container {
     position: relative;
     text-align: center;
     color: white;
@@ -65,9 +68,6 @@ button.btn-primary {
     width: 100%;
 }
 
-footer {
-    background-color: #83BCA9;
-}
 .cardtext {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
