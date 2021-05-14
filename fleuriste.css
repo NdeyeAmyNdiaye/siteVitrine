@@ -1,16 +1,41 @@
+
 .tel {
     display: none;
 }
 
-p, span {
+p, span, label, form .form_text {
     color: #282B28;
 }
 
-h1 {
+h1, h2 {
     color: #3E5641;
 }
 
+button.btn-primary {
+    background-color: #83BCA9;
+}
 
+
+/* FORMULAIRE */
+
+#formWrapper {
+    padding: 40px 0;
+}
+
+#formWrapper h2 {
+    margin-bottom: 50px;
+>>>>>>> louis
+}
+
+#formWrapper form label {
+    font-weight: bold;
+}
+
+#formWrapper button[type=submit] {
+    margin-top: 10px;
+    border: #83BCA9;
+    padding: 12px 10px;
+}
 
 @media only screen and (max-device-width:600px) {
 
