@@ -28,6 +28,7 @@ body {
 
 /****************************/
 /******* page d'accueil *****/
+
 header.masthead {
   padding-top: 11rem;
   padding-bottom: 8rem;
@@ -189,7 +190,7 @@ header.masthead .masthead-heading {
   
   height: 4px;
   width: 4px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(17, 12, 12);
   -webkit-border-radius: 8px;
           border-radius: 8px;
 }
@@ -263,6 +264,8 @@ header.masthead .masthead-heading {
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+
 
 
 
