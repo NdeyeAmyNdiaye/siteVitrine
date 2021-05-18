@@ -1,3 +1,13 @@
+.navbar {
+    background-color: #83BCA9;
+
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+
+   }
+
 .tel {
     display: none;
 }
@@ -10,7 +20,7 @@ h1 {
     color: #3E5641;
 }
 
-/*@media only screen and (max-device-width:600px) {
+@media only screen and (max-device-width:600px) {
 
 .pc {
     display: none;
@@ -20,11 +30,35 @@ h1 {
     display: block;
 }
 
+}
+
+/**
+#bgImg{
+    background:url('/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 600px; 
 }*/
+.accueil{
+    margin-top:-500px;
 
+}
 
-
-
+/**Css de Amy Footer**/
 footer {
     background-color: #83BCA9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+}
+footer a{
+    color: black;
+}
+footer a:hover{
+    color: white;
+}
+footer .fab{
+    color: white;
 }
