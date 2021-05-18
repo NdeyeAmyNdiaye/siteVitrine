@@ -23,7 +23,7 @@ button.btn-primary {
 }
 
 #formWrapper h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #formWrapper form label {
@@ -34,20 +34,28 @@ button.btn-primary {
     margin-top: 10px;
     border: #83BCA9;
     padding: 12px 10px;
+    font-weight: bold;
 }
+
+#formWrapper button[type=submit]:hover {
+    background-color: #282B28;
+    border: 2px solid #282B28;
+    padding: 10px 8px; 
+    font-weight: bold;
+}
+
 
 @media only screen and (max-device-width:600px) {
 
-.pc {
-    display: none;
-}
+    .pc {
+        display: none;
+    }
 
-.tel {
-    display: block;
-}
+    .tel {
+        display: block;
+    }
 
 }
-
 
 
 
