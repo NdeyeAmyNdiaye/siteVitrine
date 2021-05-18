@@ -6,28 +6,76 @@ body {
     font-size: larger;
 }
 .navbar {
+  padding-bottom: 0;
    padding-top: 0;
    color: chartreuse;
-    box-shadow: 0 2px 5px 0 rgba(218, 195, 195, 0.16),0 2px 10px 0 rgba(0,0,0,.12);
+   box-shadow: 0 2px 5px 0 rgba(218, 195, 195, 0.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
 .nav-item:hover::after{
   width: 100%;
   transition: width .3s; 
 }
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FFBE59;
+  transition: width .3s;
+ 
+} 
 
-main {
-    margin-top: 60px;
+
+/****************************/
+/******* page d'accueil *****/
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("roses.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
-.home{
-  
-   height: 714px;
-   background: url('background.jpg');
-   background-size: 100% 100%;
-   background-image: fill;
-
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
+/****************************/
 
 p, span, label, form .form_text {
     color: #282B28;
@@ -67,15 +115,7 @@ li a {
 
 }
 
-.nav-item::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 5px;
-    background: #FFBE59;
-    transition: width .3s;
-   
-}  
+ 
 #formWrapper button[type=submit] {
     margin-top: 10px;
     border: #83BCA9;
@@ -109,11 +149,6 @@ footer {
 }
   
 
-
-/******** Section d'accueil **********/
-
-
-  /******************************/
   
 .cardtext {
     background-color: rgb(0,0,0); /* Fallback color */
