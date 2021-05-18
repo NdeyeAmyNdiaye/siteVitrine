@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 .nav-item {
     font-family: 'Fredericka the Great', cursive;
@@ -33,10 +33,10 @@ header.masthead {
   padding-bottom: 8rem;
   text-align: center;
   color: #fff;
-  background-image: url("roses.jpg");
+  background-image: url("images/roses.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  /*background-position: center center;*/
   background-size: cover;
 }
 
@@ -57,6 +57,21 @@ header.masthead .masthead-heading {
   font-family: 'Anton', sans-serif;
 
 }
+#btn-accueil {
+ 
+    color: navy;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid navy;
+    outline: none;
+    transition: 2s ease-in-out;
+}
+#btn-accueil:hover {
+  transition: 1s ease-in-out;
+  color: blanchedalmond;
+  background: #282b28;
+}
+
 
 @media (min-width: 768px) {
   header.masthead {
