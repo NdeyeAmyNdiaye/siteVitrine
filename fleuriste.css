@@ -76,7 +76,11 @@ header.masthead .masthead-heading {
   color: blanchedalmond;
   background: #282b28;
 }
-
+@media (max-width:800px) {
+  #btn-accueil {
+    background-color: burlywood;
+  }
+}
 
 @media (min-width: 768px) {
   header.masthead {
