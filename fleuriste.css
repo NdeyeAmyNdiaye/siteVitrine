@@ -60,7 +60,6 @@ body {
   #formWrapper {
       padding: 40px 0;
       margin-bottom: 40px;
-     
   }
   
   
@@ -334,8 +333,12 @@ p, span, label, form .form_text {
     color: #282B28;
 }
 
-h1, h2 {
+h2 {
     color: #3E5641;
+}
+
+h1{
+  color: white;
 }
 
 button.btn-primary {
@@ -345,10 +348,6 @@ button.btn-primary {
 
 /* FORMULAIRE */
 
-#formWrapper {
-    padding: 40px 0;
-}
-
 #formWrapper h2 {
     margin-bottom: 50px;
 }
@@ -357,8 +356,6 @@ button.btn-primary {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
 li {
     display: inline-block;
 }
@@ -369,7 +366,6 @@ li a {
 }
 
  
->>>>>>> Accueil
 #formWrapper button[type=submit] {
     margin-top: 10px;
     border: #83BCA9;
@@ -485,4 +481,37 @@ hr{
 
 .margintop{
     margin-top: 69px;
+    margin-bottom: 42px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_sqr{
+  width: 80%;
+}
+
+#linkedin{
+  background-color: #83BCA9;
+  border: none;
+}
+
+#services{
+  padding-top: 80px;
+}
+
+#about{
+  padding-top: 80px;
+}
+
+#contact{
+  padding-top: 40px;
+}
+
+#services p{
+  font-size: 1.2rem;
+}
+
+#about{
+  font-size: 1.2rem;
 }

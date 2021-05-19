@@ -46,13 +46,8 @@
                     </li>
 
                     <li class="nav-item text-center">
-                        <a href="#Services" class="nav-link">
+                        <a href="#services" class="nav-link">
                             Services
-                        </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a href="#about" class="nav-link">
-                            À propos
                         </a>
                     </li>
                     <li class="nav-item text-center">
@@ -60,6 +55,12 @@
                             Contact
                         </a>
                     </li>
+                    <li class="nav-item text-center">
+                        <a href="#about" class="nav-link">
+                            À propos
+                        </a>
+                    </li>
+                    
 
                 </ul>
             </div>
@@ -74,16 +75,16 @@
 
     <header class="masthead" id="accueil">
         <div class="container">
-            <div class="masthead-subheading text-uppercase">Au nom de la rose !</div>
+            <h1 class="masthead-subheading text-uppercase">L'univers des fleurs !</h1>
             
             
             
-            <div class="masthead-heading text-uppercase">L'univers des fleurs</div>
+            <div class="masthead-heading text-uppercase">Au nom de la rose</div>
             <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" id="btn-accueil" href="#services">Voir
                 plus !</a>
 
                 <div class="mouse_scroll">
-                    <a href="#Services">
+                    <a href="#services">
                     <div class="mouse">
                     <div class="wheel"></div>
                     </div>
@@ -96,48 +97,53 @@
                     </a>
                 </div>
         </header>
-
       
-            <div class="container" id="Services">
-                <h1 style="text-align: center;">SERVICES</h1>
+            <div class="container" id="services">
+                <h2 class="text-center fw-bold">SERVICES</h2>
                 <div class="row">
+                    <div class="col-md-8 offset-md-2 col-8s offset-2 ">
+                        <p class="bullshit">
+                            Nous sommes une entreprise familiale, fleuriste de génération en génération depuis plus de sept siècles. Nous saurons remplir vos demandes, même les plus farfelus! Notre domaine d'expertise s'étends du classique et sobre jusqu'au moderne et innovant en passant par le cyberpunk, entre autre. <br><br>Nous avons participé à de grands projets tels que le mariage de Jim Carrey, la Bar-mitzvah de Nathalie Portman ou encore la communion de Chuck Norris. <br><br>Nous travaillons dans le respect de l'environnement et des especes végétales, c'est pourquoi notre ferme est basé sur la face cachée de la Lune.
+                        </p>
+                    </div>
                     <div class="col-md-10 offset-md-1 col-10 offset-1 my_container">
                         <div class="row">
                             <div class="col-md-4 p-2 my_container image-blurred-edge">
                                 <div class="image">
-                                    <img src="./img/bouquet.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
+                                    <img src="./images/bouquet.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
                                 </div>
                                 <a class="align-middle cardtext custom_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                    Mariages
-                                </a>
-                            </div>
-                            <div class="col-md-4  p-2 my_container image-blurred-edge">
-                                <div class="image">
-                                    <img src="./img/arche.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
-                                </div>
-                                <div>
-                                <a class="cardtext align-text custom_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                    Événements
-                                </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4  p-2 my_container image-blurred-edge">
-                                <div class="image">
-                                    <img src="./img/random_flowers.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
-                                </div>
-                                <a class="cardtext align-text custom_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                                     Anniversaires
                                 </a>
                             </div>
+                            <div class="col-md-4  p-2 my_container image-blurred-edge">
+                                <div class="image">
+                                    <img src="./images/arche.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
+                                </div>
+                                <div>
+                                <a class="cardtext align-text custom_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                                    Mariages
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4  p-2 my_container image-blurred-edge">
+                                <div class="image">
+                                    <img src="./images/random_flowers.jpg" class="img img-responsive full-width bg-service border rounded shadow-lg">
+                                </div>
+                                <a class="cardtext align-text custom_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                                    Événements
+                                </a>
+                            </div>
                         </div>
-                        <hr class="margintop">
                     </div>
                 </div>
             </div>
 
+            <hr class="margintop">
+
             <section class="container-fluid" id="formWrapper">                
-                <h2 class="text-center fw-bold">CONTACT</h2>
-                <h3 style="text-align: center;">Une question, une remarque ? Veuillez nous contacter **</h3>
+                <h2 class="text-center fw-bold" id="contact">CONTACT</h2>
+                <h3 style="text-align: center;">Une question, une remarque ? Veuillez nous contacter</h3>
 
                 <form class="col-md-6 offset-md-3 col-10 offset-1 align-items-center">
                   <div class="mb-3">
@@ -166,13 +172,14 @@
                   </div>
                   
                 </form>
+                
              </section>
 
-
+             <hr class="margintop">
 
            <div class="container my-4" id="about">
 
-         <h1 style="text-align: center;"> À PROPOS</h1>
+         <h2 class="text-align fw-bold text-center"> À PROPOS</h2>
         
             <!--Grid row-->
             <div class="row text-center">
@@ -180,29 +187,12 @@
               <!--Grid column-->
               <div class="col-md-3 mb-4">
         
-                <h2 class="my-5 h2">Basic example</h2>
+                <h2 class="my-5 h2">Antoine E</h2>
         
-                <img class="rounded-circle" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true">
-        
-              </div>
-              <!--Grid column-->
-        
-              <!--Grid column-->
-              <div class="col-md-3 mb-4">
-        
-                <h2 class="my-5 h2">AMRI</h2>
-        
-                <img class="rounded-circle z-depth-2" alt="100x100" src="images/dessin.jpg"
-                  data-holder-rendered="true">
-        
-              </div>
-              <div class="col-md-3 mb-4">
-        
-                <h2 class="my-5 h2">Louis</h2>
-        
-                <img class="rounded-circle" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true">
+                <img class="rounded-circle img_sqr shadow" alt="100x100" src="images/anna.png" data-holder-rendered="true">
+                <p class="mt-3">Main d'oeuvre en placement et entretiens</p>
+                <a href="https://www.linkedin.com/in/antoine-emery-6384691ba" id="linkedin" class="btn btn-primary mt-3" role="button" target="_blank">Linkedin</a>
+
         
               </div>
               <!--Grid column-->
@@ -210,10 +200,37 @@
               <!--Grid column-->
               <div class="col-md-3 mb-4">
         
-                <h2 class="my-5 h2">With shadow</h2>
+                <h2 class="my-5 h2">Amri H</h2>
         
-                <img class="rounded-circle z-depth-2" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+                <img class="rounded-circle img_sqr shadow" alt="100x100" src="images/amri.png" data-holder-rendered="true">
+                <p class="mt-3">Conseiller en harmonie des couleurs</p>
+                <a href="https://www.linkedin.com/in/amri-amri-302228187/
+                " id="linkedin" class="btn btn-primary mt-3" role="button" target="_blank">Linkedin</a>
+
+        
+              </div>
+              <div class="col-md-3 mb-4">
+        
+                <h2 class="my-5 h2">Louis MC</h2>
+        
+                <img class="rounded-circle img_sqr shadow" alt="100x100" src="images/chatcrocs.jpg"
                   data-holder-rendered="true">
+                  <p class="mt-3">Vendeur de rose station Chateau d'eau</p>
+                <a href="" id="linkedin" class="btn btn-primary mt-3" role="button" target="_blank">Linkedin</a>
+
+        
+              </div>
+              <!--Grid column-->
+        
+              <!--Grid column-->
+              <div class="col-md-3 mb-4">
+        
+                <h2 class="my-5 h2">Amy N</h2>
+        
+                <img class="rounded-circle img_sqr shadow" alt="100x100" src="images/amy.jpg" data-holder-rendered="true">
+                <p class="mt-3">Régisseuse en chef de la gestion de thème</p>
+                <a href="" id="linkedin" class="btn btn-primary mt-3" role="button" target="_blank">Linkedin</a>
+
         
               </div>
               <!--Grid column-->
@@ -225,20 +242,20 @@
 
 
     <!--Footer-->
-    <footer class="container-fluid" if="footer">
+    <footer class="container-fluid" id="footer">
         <div class="offset-1 col-10">
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Accueil</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#accueil">Accueil</a></li>
+                <li class="list-inline-item"><a href="#services">Services</a></li>
                 <li class="list-inline-item"><a href="#">Mentions légales</a></li>
                 <li class="list-inline-item"> <a href="#">Contact-devis</a></li>  
             </ul>
              <div class="row py-2">
                 <ul class="d-flex justify-content-center">
-                    <li><a href="#"><i class="fab fa-linkedin-in fa-2x mx-3"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram fa-2x mx-3"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook fa-2x mx-3"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter fa-2x mx-3"></i></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="fab fa-linkedin-in fa-2x mx-3" target="_blank"></i></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="fab fa-instagram fa-2x mx-3" target="_blank"></i></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="fab fa-facebook fa-2x mx-3" target="_blank"></i></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="fab fa-twitter fa-2x mx-3" target="_blank"></i></a></li>
                             
                 </ul>
              </div>
